@@ -1,5 +1,5 @@
 FROM alpine:3.15.0
-LABEL version="3.15.0" maintainer="alexandre" os="linux" distro="alpine"
+LABEL version="1.0.0" maintainer="alexandre" os="linux" distro="alpine"
 
 ENV CONTAINER_USER = "alexxx333"
 RUN useradd $CONTAINER_USER --disabled-password && mkdir "/home/aguirre/"
